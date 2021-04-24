@@ -1,0 +1,11 @@
+.dash-tooltip .dash-table-tooltip {
+    max-width: 700px !important;
+    min-width: 700px !important;
+    width: 700px !important;
+    font-size: small !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 125% !important;
+    background-color: #ffffff !important;
+    border-style: solid !important;
+}
+
