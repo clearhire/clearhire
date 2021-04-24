@@ -5,16 +5,16 @@ It was designed to as part of an online experiment to evaluate how different sty
 the possible biases which may be present in such sites.
 
 Study participants had to pretend they were searching for a jobs. Upon loading the site, a list of jobs was presented to them from which they
-were asked to select at least three they would be interested in applying to. Four different lists of recommendations were then generated: Option 1 and 
-Option 2 use the same matrix factorisation algorithm, Option 3 uses a user-based collaborative filtering algorithm, and Option 4 uses an item-based 
+were asked to select at least three they would be interested in applying to. Four different lists of recommendations were then generated: Option1 and 
+Option2 use the same matrix factorisation algorithm, Option3 uses a user-based collaborative filtering algorithm, and Option4 uses an item-based 
 collaborative filtering algorithm. Each Option has their own unique explanation style.
 
 This repository contains the following files:
 - __data_manipulation.py__ contains the functions used to process the dataset and create the user-job matrices used by all the algorithms.
-- __mf_model.py__ contains the code for the matrix factorisation algorithm, as well as the explanation for Option 1.
+- __mf_model.py__ contains the code for the matrix factorisation algorithm, as well as the explanation for Option1.
 - __user_cf.py__ contains the code for the user-based collaborative filtering algorithm and explanation.
 - __item_cf.py__ contains the code for the item-based collaborative filtering algorithm and explanation.
-- __database_explanation.py__ contains the code for the explanation for Option 2.
+- __database_explanation.py__ contains the code for the explanation for Option2.
 - __selection_table.py__ is used to generate the list of jobs presented to users when they first load the site.
 - __app.py__ contains the code for the design and functionality the website. This is done using Plotly Dash.
 - __website_helper.py__ contains functions to help generating various features for the website.
