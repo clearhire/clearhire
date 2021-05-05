@@ -7,7 +7,7 @@ the possible biases which may be present in such sites.
 Study participants had to pretend they were searching for a jobs. Upon loading the site, a list of jobs was presented to them from which they
 were asked to select at least three they would be interested in applying to. Four different lists of recommendations were then generated: Option1 and 
 Option2 use the same matrix factorisation algorithm, Option3 uses a user-based collaborative filtering algorithm, and Option4 uses an item-based 
-collaborative filtering algorithm. Each Option has their own unique explanation style.
+collaborative filtering algorithm. Each Option has its own unique explanation style.
 
 This repository contains the following files:
 - __data_manipulation.py__ contains the functions used to process the dataset and create the user-job matrices used by all the algorithms.
